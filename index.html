@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth or Dare Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Truth or Dare</h1>
+        <p>Enter your Telegram usernames:</p>
+        <input type="text" id="player1" placeholder="Player 1 Telegram Username">
+        <input type="text" id="player2" placeholder="Player 2 Telegram Username">
+        <button onclick="startGame()">Start Game</button>
+
+        <div class="spinner">
+            <div class="arrow"></div>
+            <div class="circle">
+                <div class="section">Player 1</div>
+                <div class="section">Player 2</div>
+            </div>
+        </div>
+
+        <h2 id="result"></h2>
+
+        <h3><a href="how-to-play.html">How to Play?</a></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
